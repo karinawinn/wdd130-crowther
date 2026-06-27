@@ -1,54 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dorsey & Doni Esteban | Wedding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=MonteCarlo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="registry.html">Registry</a></li>
-                <li>
-                    <form action="rsvp.html" target="_blank">
-                        <button type="submit">RSVP</button>
-                    </form>
-                </li>
-            </ul>
-        </nav>
-        <img src="images/logo.png" alt="Logo">
-    </header>
-    <main>
-        <div class="hero">
-            <h1>Dorsey & Doni Esteban</h1>
-            <div id="h1Subtitle">Together is our favorite place to be.</div>
-            <img src="images/divider.png" alt="Divider">
-            <h2>NOVEMBER 21, 2026</h2>
-            <h3>SEATTLE, WASHINGTON</h3>
-            <button>View Registry</button>
-        </div>
-        <div class="welcome">
+  <header>
+    <a href="index.html">
+      <img src="images/logo.jpeg" alt="Dorsey and Doni Esteban wedding logo" class="logo">
+    </a>
 
-        </div>
-        <div class="details">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="registry.html">Registry</a>
+      <a href="rsvp.html" class="nav-button">RSVP</a>
+    </nav>
+  </header>
 
-        </div>
-        <div class="registry">
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Dorsey &<br>Doni Esteban</h1>
+        <p class="tagline">Together is our favorite place to be.</p>
+        <div class="divider">✿</div>
+        <p class="date">November 21, 2026</p>
+        <p class="location">Seattle, Washington</p>
+        <a href="registry.html" class="button">View Registry</a>
+      </div>
 
+      <div class="hero-image">
+        <div class="photo-placeholder">
+          <span>Wedding Photo</span>
         </div>
-    </main>
-    <footer>
-        <img src="images/logo.png" alt="Logo">
-        <h2>Dorsey & Doni Esteban</h2>
-        <div id="h2Subtitle">Thank you for being part of our story.</div>
-        <img src="imags/divider.png" alt="Divider">
-        <p>Questions?<br>Contact info here</p>
-        <!-- Would like to make these images links. Will ask about that. -->
-        <img src="images/instagram.png" alt="Instagram">
-        <img src="images/facebook.png" alt="Facebook">
-        <img src="images/email.png" alt="Email">
-    </footer>
+        <img src="images/flowers.jpeg" alt="Pink watercolor wedding flowers" class="hero-flowers">
+      </div>
+    </section>
+
+    <section class="welcome">
+      <h2>Welcome</h2>
+      <div class="divider">✿</div>
+      <p>
+        Welcome to our wedding website! We are so excited to celebrate starting this special
+        chapter with our family and friends. Here you will find everything you need to know
+        about our wedding weekend, travel information, and how to RSVP.
+      </p>
+    </section>
+
+    <section class="details">
+      <h2>Wedding Details</h2>
+
+      <div class="detail-grid">
+        <div class="detail-card">
+          <div class="icon-circle">⌂</div>
+          <h3>Ceremony</h3>
+          <p>Friday, November 20, 2026</p>
+          <p>3:00 PM</p>
+          <p>SoDo Park</p>
+          <p>Seattle, Washington</p>
+        </div>
+
+        <div class="detail-card middle-card">
+          <div class="icon-circle">♡</div>
+          <h3>Reception</h3>
+          <p>5:30 PM - 10:00 PM</p>
+          <p>Dinner, dancing, and celebration to follow after the ceremony.</p>
+        </div>
+
+        <div class="detail-card">
+          <div class="icon-circle">♢</div>
+          <h3>Dress Code</h3>
+          <p>Garden Formal</p>
+          <p>We encourage guests to wear elegant attire in soft pastel colors.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="registry-preview">
+      <div class="registry-icon">
+        <span>□</span>
+        <img src="images/flowers.jpeg" alt="Pink flowers">
+      </div>
+
+      <div class="registry-preview-text">
+        <h2>Registry</h2>
+        <div class="divider">✿</div>
+        <p>
+          Your presence at our wedding is the greatest gift of all. If you wish to celebrate
+          with a gift, we have created a registry to help us begin this new chapter together.
+        </p>
+      </div>
+
+      <a href="registry.html" class="button">View Registry</a>
+    </section>
+  </main>
+
+  <footer>
+    <img src="images/logo.jpeg" alt="Dorsey and Doni Esteban wedding logo" class="footer-logo">
+
+    <div class="footer-text">
+      <h2>Dorsey & Doni Esteban</h2>
+      <p class="tagline">Thank you for being part of our story</p>
+      <div class="divider">✿</div>
+      <p>Questions?</p>
+      <p>Contact info here</p>
+    </div>
+
+    <div class="socials">
+      <span>◎</span>
+      <span>f</span>
+      <span>✉</span>
+    </div>
+  </footer>
 </body>
 </html>
