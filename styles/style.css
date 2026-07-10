@@ -1,0 +1,269 @@
+/* General Styling */
+
+@import url('https://fonts.googleapis.com/css?family=MonteCarlo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+body {
+    background: #FBEAD6;
+    font-family: Lora;
+}
+
+h1, h2, h3 {
+    color: #C87D87;
+    font-weight: 10;
+}
+
+h2 {
+    font-size: 2.0em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+p {
+    color: #6B7556;
+    font-size: 1.5em;
+}
+
+/* Header and Navigation Section */
+
+header {
+    display: flex;
+}
+
+.logo {
+    width: 250px;
+    margin-left: 20px;
+}
+
+nav {
+    width: 650px;
+    margin-left: auto;
+    padding-top: 50px;
+}
+
+nav a {
+    color: #6B7556;
+    margin-left: 75px;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.nav-button {
+    background-color: #C87D87;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 6px;
+}
+
+/* Main Section - Home Page */
+
+/* Hero */
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 6.0em;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.hero-text .tagline {
+    font-size: 3.0em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.hero-text img {
+    width: 200px;
+}
+
+.hero-text .date {
+    font-size: 2.0em;
+    margin: 20px;
+}
+
+.hero-text .location {
+    font-size: 1.4em;
+}
+
+.hero-text a {
+    display: inline-block;
+    background-color: #6B7556;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 15px 45px;
+    margin-top: 40px;
+    border-radius: 6px;
+}
+
+.hero-image {
+    position: relative;
+}
+
+#hero-wedding {
+    display: block;
+    width: 60%;
+}
+
+#hero-flowers {
+    position: absolute;
+    top: -7%;
+    left: 37%;
+    z-index: 2;
+    width: 47%;
+}
+
+/* Welcome */
+.welcome {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background: #F5DDD2;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.welcome-text h2 {
+    margin-bottom: 10px;
+}
+
+.welcome-text img {
+    width: 180px;
+}
+
+.welcome-text p {
+    margin-top: 10px;
+}
+
+.welcome img {
+    width: 40%;
+}
+
+/* Details */
+.details {
+    text-align: center;
+}
+
+.detail-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.detail-card {
+    padding: 0% 10%;
+}
+
+#left-card {
+    border-right: 3px solid #C87D87;
+}
+
+#middle-card {
+    border-left: 3px solid #C87D87;
+    border-right: 3px solid #C87D87;
+}
+
+#right-card {
+    border-left: 3px solid #C87D87;
+}
+
+/* Registry */
+.registry-preview {
+    display: grid;
+    grid-template-columns: 2fr 3fr 3fr;
+    background-color: #F5DDD2; /* #F5DDD2, FFD5C1 */
+    width: 80%;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 30px;
+    align-items: center;
+    justify-items: center;
+}
+
+.registry-preview img {
+    width: 80%;
+}
+
+.registry-preview-text {
+    padding: 0px 40px;
+    border-right: 3px solid #C87D87;
+}
+
+.registry-preview-text img {
+    width: 200px;
+}
+
+.registry-preview a {
+    display: inline-block;
+    background-color: #6B7556;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 15px 45px;
+    border-radius: 6px;
+}
+
+/* Footer Section */
+
+.tagline {
+    color: #6B7556;
+    font-family: MonteCarlo;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    justify-items: center;
+    align-items: center;
+    margin: 100px 40px 0px 40px;
+    border-top: 2px solid #C87D87;
+}
+
+footer .footer-logo {
+    width: 80%;
+}
+
+footer .footer-text {
+    text-align: center;
+    width: 100%;
+    border-left: 2px solid #C87D87;
+}
+
+.footer-text h2 {
+    margin: 0;
+}
+
+.footer-text .tagline {
+    font-size: 2.0em;
+    margin: 0;
+    line-height: 1.3em;
+}
+
+.footer-text p {
+    font-size: 1.1em;
+    margin: 0;
+}
+
+.footer-text img {
+    width: 100px;
+    margin: 5px;
+}
+
+.socials img {
+    margin: 10px;
+}
