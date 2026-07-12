@@ -502,7 +502,240 @@ footer .footer-text {
 }
 
 /* Main Section - Registry Page */
+/* Main Section - Registry Page */
 
+.registry-hero {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 90%;
+    margin: 3vw auto 0 auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.registry-hero-text {
+    text-align: center;
+    width: 80%;
+}
+
+.registry-hero-text h1 {
+    font-size: 5vw;
+    letter-spacing: 1.2vw;
+    margin-bottom: 0.5vw;
+}
+
+.registry-hero-text img {
+    width: 14vw;
+}
+
+.registry-hero-text p {
+    font-size: 1.6vw;
+    line-height: 1.8em;
+}
+
+.registry-hero-image img {
+    width: 28vw;
+}
+
+.registry-thank-you {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: #F5DDD2;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 3vw 10vw;
+    align-items: center;
+    justify-items: center;
+}
+
+.registry-thank-you > img {
+    width: 14vw;
+}
+
+.registry-thank-you-text {
+    width: 80%;
+}
+
+.registry-thank-you-text h2 {
+    margin-bottom: 0.5vw;
+}
+
+.registry-thank-you-text p {
+    margin-top: 0.5vw;
+}
+
+.registry-thank-you-text img {
+    width: 10vw;
+}
+
+.our-registry {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.our-registry h2 {
+    margin-bottom: 0.5vw;
+}
+
+.our-registry > img {
+    width: 11vw;
+    margin: 0 auto;
+}
+
+.store-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3vw;
+    margin-top: 3vw;
+}
+
+.store-card {
+    text-align: center;
+}
+
+.store-placeholder {
+    background: #F5DDD2;
+    padding: 3vw;
+    margin-bottom: 1.5vw;
+}
+
+.store-placeholder img {
+    width: 10vw;
+    margin: 0 auto;
+    opacity: 0.75;
+}
+
+.store-card a {
+    display: inline-block;
+    color: #6B7556;
+    border: 0.18vw solid #6B7556;
+    padding: 0.8vw 2.5vw;
+    text-decoration: none;
+    font-size: 1.3vw;
+    letter-spacing: 0.15vw;
+}
+
+.store-card a:hover {
+    background: #6B7556;
+    color: white;
+}
+
+.other-ways {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: #F5DDD2;
+    width: 80vw;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 2vw 4vw;
+    align-items: center;
+    justify-items: center;
+}
+
+.other-ways > img {
+    width: 10vw;
+}
+
+.other-ways-text {
+    width: 100%;
+}
+
+.other-ways-text h2 {
+    margin-bottom: 0.5vw;
+}
+
+.other-ways-text p {
+    margin-top: 0.5vw;
+}
+
+.heart {
+    color: #C87D87;
+    font-size: 2.5vw;
+    text-align: center;
+    margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .registry-hero {
+        grid-template-columns: 1fr;
+        width: 95%;
+    }
+
+    .registry-hero-text {
+        width: 90%;
+    }
+
+    .registry-hero-text h1 {
+        font-size: 9vw;
+        letter-spacing: 1.5vw;
+    }
+
+    .registry-hero-text img {
+        width: 25vw;
+    }
+
+    .registry-hero-text p {
+        font-size: 2.8vw;
+    }
+
+    .registry-hero-image img {
+        width: 50vw;
+        margin-top: 4vw;
+    }
+
+    .registry-thank-you {
+        grid-template-columns: 1fr;
+        padding: 6vw;
+        text-align: center;
+    }
+
+    .registry-thank-you > img {
+        width: 26vw;
+    }
+
+    .registry-thank-you-text {
+        width: 90%;
+    }
+
+    .registry-thank-you-text img {
+        width: 22vw;
+        margin: 0 auto;
+    }
+
+    .store-grid {
+        grid-template-columns: 1fr;
+        gap: 6vw;
+    }
+
+    .our-registry > img {
+        width: 22vw;
+    }
+
+    .store-placeholder img {
+        width: 24vw;
+    }
+
+    .store-card a {
+        font-size: 3vw;
+        padding: 1.5vw 5vw;
+    }
+
+    .other-ways {
+        grid-template-columns: 1fr;
+        width: 86vw;
+        padding: 6vw;
+        text-align: center;
+    }
+
+    .other-ways > img {
+        width: 22vw;
+    }
+
+    .heart {
+        font-size: 5vw;
+    }
+}
 
 
 /* Main Section - RSVP Page */
