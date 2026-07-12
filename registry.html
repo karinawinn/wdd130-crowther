@@ -4,110 +4,114 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registry | Dorsey & Doni Esteban</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=MonteCarlo&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
   <header>
     <a href="index.html">
-      <img src="images/logo.png" alt="Dorsey and Doni Esteban wedding logo" width="150">
+      <img src="images/logo.png" alt="Dorsey and Doni Esteban wedding logo" class="logo">
     </a>
 
     <nav>
-      <a href="index.html">Home</a>
-      <a href="registry.html">Registry</a>
-      <a href="rsvp.html">RSVP</a>
+      <a href="index.html">HOME</a>
+      <a href="registry.html">REGISTRY</a>
+      <a href="rsvp.html" class="nav-button">RSVP</a>
     </nav>
   </header>
 
   <main>
-    <section>
-      <h1>Registry</h1>
-      <img src="images/divider.png" alt="Divider" width="100">
+    <section class="registry-hero">
+      <div class="registry-hero-text">
+        <h1>REGISTRY</h1>
+        <img src="images/divider.png" alt="Divider">
+        <p>
+          Your presence at our wedding is the greatest gift of all.
+          If you wish to celebrate with a gift, we have created a
+          registry to help us begin this new chapter together.
+        </p>
+      </div>
 
-      <p>
-        Your presence at our wedding is the greatest gift of all.
-      </p>
-      <p>
-        If you wish to celebrate with a gift, we have created a
-        registry to help us begin this new chapter together.
-      </p>
-
-      <img src="images/home-floral.png" alt="Pink watercolor wedding flowers" width="250">
+      <div class="registry-hero-image">
+        <img src="images/home-floral.png" alt="Pink watercolor wedding flowers">
+      </div>
     </section>
 
-    <section>
-      <img src="images/home-registry.png" alt="Gift icon" width="150">
+    <section class="registry-thank-you">
+      <img src="images/home-registry.png" alt="Gift icon">
 
-      <h2>Thank You</h2>
-      <p>
-        We are so grateful for your love and support as we start this new chapter.
-      </p>
-      <p>
-        Thank you for being part of our journey.
-      </p>
-
-      <img src="images/divider.png" alt="Divider" width="100">
+      <div class="registry-thank-you-text">
+        <h2>THANK YOU</h2>
+        <p>
+          We are so grateful for your love and support as we start this new chapter.
+          Thank you for being part of our journey.
+        </p>
+        <img src="images/divider.png" alt="Divider">
+      </div>
     </section>
 
-    <section>
-      <h2>Our Registry</h2>
-      <img src="images/divider.png" alt="Divider" width="100">
+    <section class="our-registry">
+      <h2>OUR REGISTRY</h2>
+      <img src="images/divider.png" alt="Divider">
+      <p>We are registered at the stores below.</p>
 
-      <p>
-        We are registered at the stores below.
-      </p>
+      <div class="store-grid">
+        <article class="store-card">
+          <div class="store-placeholder">
+            <img src="images/home-registry.png" alt="Store registry placeholder">
+          </div>
+          <a href="#">STORE NAME 1</a>
+        </article>
 
-      <article>
-        <img src="images/registry-store-1.png" alt="Store registry image 1" width="200">
-        <p>
-          <a href="#">Store Name 1</a>
-        </p>
-      </article>
+        <article class="store-card">
+          <div class="store-placeholder">
+            <img src="images/home-registry.png" alt="Store registry placeholder">
+          </div>
+          <a href="#">STORE NAME 2</a>
+        </article>
 
-      <article>
-        <img src="images/registry-store-2.png" alt="Store registry image 2" width="200">
-        <p>
-          <a href="#">Store Name 2</a>
-        </p>
-      </article>
-
-      <article>
-        <img src="images/registry-store-3.png" alt="Store registry image 3" width="200">
-        <p>
-          <a href="#">Store Name 3</a>
-        </p>
-      </article>
+        <article class="store-card">
+          <div class="store-placeholder">
+            <img src="images/home-registry.png" alt="Store registry placeholder">
+          </div>
+          <a href="#">STORE NAME 3</a>
+        </article>
+      </div>
     </section>
 
-    <section>
-      <img src="images/home-vine-left.png" alt="Leaf decoration" width="100">
+    <section class="other-ways">
+      <img src="images/home-vine-left.png" alt="Leaf decoration">
 
-      <h2>Prefer to Give in Other Ways?</h2>
-      <p>
-        If you would like to contribute in a different way,
-        please feel free to reach out to us.
-      </p>
-      <p>♡</p>
+      <div class="other-ways-text">
+        <h2>PREFER TO GIVE IN OTHER WAYS?</h2>
+        <p>
+          If you would like to contribute in a different way,
+          please feel free to reach out to us.
+        </p>
+        <p class="heart">♡</p>
+      </div>
     </section>
   </main>
 
   <footer>
-    <img src="images/logo.png" alt="Dorsey and Doni Esteban wedding logo" width="120">
+    <img src="images/logo.png" alt="Dorsey and Doni Esteban wedding logo" class="footer-logo">
 
-    <h2>Dorsey & Doni Esteban</h2>
-    <p>Together is our favorite place to be.</p>
-    <p>Thank you for being part of our story.</p>
-    <img src="images/divider.png" alt="Divider" width="100">
+    <div class="footer-text">
+      <h2>DORSEY & DONI ESTEBAN</h2>
+      <p class="tagline">Thank you for being part of our story</p>
+      <img src="images/divider.png" alt="Divider">
+      <p>Questions?</p>
+      <p>Contact info here</p>
+    </div>
 
-    <p>Questions?</p>
-    <p>Contact info here</p>
-
-    <p>
-      <img src="images/instagram.png" alt="Instagram Icon" width="30">
-      <img src="images/facebook.png" alt="Facebook Icon" width="30">
-      <img src="images/email.png" alt="Email Icon" width="30">
-    </p>
+    <div class="socials">
+      <img src="images/instagram.png" alt="Instagram Icon">
+      <img src="images/facebook.png" alt="Facebook Icon">
+      <img src="images/email.png" alt="Email Icon">
+    </div>
   </footer>
 </body>
 </html>
